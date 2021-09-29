@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --primary-dark: #00C889;
+    --primary-regular: #0DF3A0;
+    --primary-light: #37FFBF;
+    --secondary-dark: #7400C8;
+    --secondary-regular: #8D0BF2;
+    --secondary-light: #AA37FF;
+    --gray-dark: #161616;
+    --gray-regular: #49454C;
+    --gray-light: #868389;
+    --white-dark: #E0E0E0;
+    --white-regular: #EFEFEF;
+    --white-light: #F9F9F9;
+    font-size: 62.5%;
+}
