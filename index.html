@@ -14,30 +14,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section id="index">
+    <div id="wrap">
+        <section id="hero">
             <header>
                 <nav>
-                    <ul>
-                        <li>João Braz</li>
-                        <li>
-                            <img src="/src/images/menu.svg" alt="menu">
-                            <img src="/src/images/menu.svg" alt="menu">
-                            <img src="/src/images/menu.svg" alt="menu">
-                        </li>
+                    <ul class="menu">
+                        <div class="left">
+                            <li>HOME</li>
+                            <li>WORKS</li>
+                            <li>CONTACT</li>
+                            <li>BLOG</li>
+                        </div>
+                        <div>
+                            <li>JOÃO BRAZ</li>
+                        </div>
+                        <div>
+                            <li><img src="public/images/icons/github.svg" alt="Icone Github"></li>
+                            <li><img src="public/images/icons/linkedin.svg" alt="Icone Linkedin"></li>
+                            <li><img src="public/images/icons/dribbble.svg" alt="Icone Dribbble"></li>
+                        </div>
                     </ul>
                 </nav>
             </header>
-            <article>
-                <p>Hi, I'm</p>
-                <h1>João Braz</h1>
-                <p>FRONT END DEVELOPER</p>
-                <p>Resume</p>
-                <p>I’m a front end developer based in Pernambuco, Recife</p>
-                <p>Hey, do you want to build a website for your business or needs a developer to your team?</p>
-                <button class="button">GET IN TOUCH!</button>
+            <article id="main">
+                <div id="left">
+                    <h2>Hi, I'm</h2>
+                    <h1>João Braz</h1>
+                    <h3>FRONT END DEVELOPER</h3>
+                </div>
+                <div id="right">
+                    <p>Resume</p>
+                    <p>I’m a front end developer based in Pernambuco, Recife</p>
+                    <p>Hey, do you want to build a website for your business or needs a developer to your team?</p>
+                    <button class="button">GET IN TOUCH!</button>
+                </div>
             </article>
         </section>
-    </main>
+    </div>
 </body>
 </html>
